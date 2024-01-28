@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="web-component-header-footer/index.js"></script>
+		<link rel="stylesheet" href="web-component-header-footer/index.css" />
+	</head>
+	<body>
+		<my-header-footer>
+			<div slot="first-app" id="first-app"></div>
+			<div slot="second-app" id="second-app"></div>
+		</my-header-footer>
+
+		<script type="module" src="first-app/dist/index.js"></script>
+		<link rel="stylesheet" href="first-app/dist/assets/index.css"></link>
+		<script type="module" src="second-app/dist/index.js"></script>
+		<link rel="stylesheet" href="second-app/dist/assets/index.css"></link>
+	</body>
+</html>
